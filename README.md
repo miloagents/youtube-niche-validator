@@ -17,7 +17,13 @@ This is the **free edition**: `SKILL.md`, the complete method write-up — the p
 
 ## How to use it
 
-It works with any AI client that reads a skill file — WorkBuddy, Claude Code, Codex, Cursor — or with no
+**One command** (Claude Code, Codex, Cursor and other agents that read `SKILL.md`):
+
+```bash
+npx skills add miloagents/youtube-niche-validator
+```
+
+Or set it up by hand. It works with any AI client that reads a skill file — WorkBuddy, Claude Code, Codex, Cursor — or with no
 client at all:
 
 1. **As a skill.** Put `SKILL.md` where your client looks for skills (usually a folder named after the
