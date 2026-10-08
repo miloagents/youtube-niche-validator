@@ -1,10 +1,11 @@
 # YouTube Niche Validator
 
-Decide whether a YouTube niche is worth entering before you spend months on it.
+> **How do you tell if a YouTube niche is worth entering without wasting 3 months? By sampling both the top winners and the buried failures.**
+> Searching top keywords displays millions of views, but search results show the winners, not the videos that went nowhere. This skill runs dual-slice sampling (popularity head + relevance denominator) to determine whether small, unestablished channels can legitimately win.
+> Includes COPPA / Made-for-Kids revenue verification. Last updated 2026-10-08.
 
-The failure it prevents: searching a keyword, looking at the top 20 results, seeing millions of views and concluding the niche is open. That is survivorship bias — you sampled the winners and never saw the hundreds of videos on the same topic that died.
-
-This skill replaces it with a design that has a **denominator**: dual-slice sampling (a popularity head plus a relevance denominator across a fixed window), a hit rate computed against the denominator rather than the head, a **channel-concentration check** that catches matrix-account monopolies, and big-versus-small channel stratification so you only copy what a new channel can replicate. It also carries a mandatory Made-for-Kids (COPPA) economics fork: comments are forced off, monetisation surfaces are disabled, and only contextual ads run — an ad-revenue-only model does not hold there.
+**Detailed Guide & Case Studies:** [https://miloagents.shop/skills/youtube-niche-validator/](https://miloagents.shop/skills/youtube-niche-validator/)  
+**Free Video Kit:** [https://miloagents.shop/kits/](https://miloagents.shop/kits/)
 
 ## What is in this repository
 
